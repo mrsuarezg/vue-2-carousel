@@ -15,8 +15,8 @@ module.exports = {
   entry: ['./src/'],
   output: {
     path: path.resolve(__dirname, './dist'),
-    filename: 'vue-carousel.js',
-    library: 'VueCarousel',
+    filename: 'vue-2-carousel.js',
+    library: 'Vue2Carousel',
     libraryTarget: 'umd'
   },
   resolve: {
